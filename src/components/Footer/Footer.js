@@ -9,9 +9,10 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href='tel:+254727214409'>+254727 214 409</LinkItem>
+          <LinkTitle>Call/Text/WhatsApp</LinkTitle>
+          <LinkItem href='tel:+254727214409'>+254 727 214 409</LinkItem>
         </LinkColumn>
+        <br></br>
         <LinkColumn>
           <LinkTitle>E-mail</LinkTitle>
           <LinkItem href='mailto:ndegwangugi1@gmail.com'>ndegwangugi1@gmail.com</LinkItem>
@@ -19,21 +20,24 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Building solutions that transform lives. Portfolio built with React.</Slogan>
+          <Slogan>Building solutions that transform lives.</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='hhttps://github.com/ndegwazack/'>
+          <SocialIcons href='https://github.com/ndegwazack/'>
           <AiFillGithub size="3rem" />
         </SocialIcons>
         <SocialIcons href='https://www.linkedin.com/in/zacharia-ndegwa-473407126/'>
           <AiFillLinkedin size="3rem" />
+        </SocialIcons>        
+        {/* <SocialIcons href='#'>
+          <AiFillWechat size="3rem" />
         </SocialIcons>
         <SocialIcons href='https://www.instagram.com/ndegwagram/'>
           <AiFillInstagram size="3rem" />
         </SocialIcons>
         <SocialIcons href='https://twitter.com/ZackVage'>
           <AiFillTwitterCircle size="3rem" />
-        </SocialIcons>
+        </SocialIcons> */}
       </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

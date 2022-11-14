@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle, AiFillWechat } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
@@ -32,18 +32,22 @@ const Header = () =>  (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='hhttps://github.com/ndegwazack/'>
+      <SocialIcons href='https://github.com/ndegwazack/'>
         <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons href='https://www.linkedin.com/in/zacharia-ndegwa-473407126/'>
         <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      {/* 
+      <SocialIcons href='#'>
+        <AiFillWechat size="3rem" />
       </SocialIcons>
       <SocialIcons href='https://www.instagram.com/ndegwagram/'>
         <AiFillInstagram size="3rem" />
       </SocialIcons>
       <SocialIcons href='https://twitter.com/ZackVage'>
         <AiFillTwitterCircle size="3rem" />
-      </SocialIcons>
+      </SocialIcons> */}
     </Div3>
   </Container>
 );

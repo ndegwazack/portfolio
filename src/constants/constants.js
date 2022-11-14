@@ -16,12 +16,20 @@ export const projects = [
     id: 1,
   },
   {
+    title: 'SORK',
+    description: "This is a website showcasing the history and services offered by the society to its members. The website is built on CodeIgniter.",
+    image: '/images/sork.png',
+    tags: ['CodeIgniter', 'MySQL'],
+    visit: 'https://sork.or.ke//',    
+    id: 2,
+  },
+  {
     title: 'Karington Events',
     description: "This is an event management company website showcasing different types of events and handling payment online for the offered packages. The Book Online extension is built on CodeIgniter.",
       image: '/images/events.png',
       tags: ['WordPress', 'CodeIgniter', 'iPay'],
     visit: 'https://karingtonevents.co.ke/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Engineers San Frontier\'s',
@@ -29,7 +37,7 @@ export const projects = [
     image: '/images/san.png',
     tags: ['WordPress'],
     visit: 'https://engineerssanfrontiers.co.ke/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'HVAC Contractors',
@@ -37,16 +45,9 @@ export const projects = [
       image: '/images/hvac.png',
       tags: ['CodeIgniter', 'MySQL'],
     visit: 'https://hvaccontractors.co.ke/public/',
-    id: 4,
-  },
-  {
-    title: 'SORK',
-    description: "This is a website showcasing the history and services offered by the society to its members. The website is built on CodeIgniter.",
-    image: '/images/sork.png',
-    tags: ['CodeIgniter', 'MySQL'],
-    visit: '#',    //https://radiography.or.ke/
     id: 5,
   },
+  
 ];
 
 export const TimeLineData = [

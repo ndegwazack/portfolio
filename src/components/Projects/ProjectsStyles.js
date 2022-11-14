@@ -62,7 +62,7 @@ export const Intro = styled.div`
   width: 170px;
   margin: 0 auto;
   color: #dce3e7;
-  font-family: 'Droid Serif', serif;
+  font-family: 'Poppins', serif;
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
@@ -75,7 +75,7 @@ export const CardInfo = styled.p`
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  text-align: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   

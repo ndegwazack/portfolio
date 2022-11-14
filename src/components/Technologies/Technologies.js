@@ -17,7 +17,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with the React library. (This app is built with React and Next js)
+            React, HTML, CSS, JS, Wordpress.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -26,7 +26,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>APIs</ListTitle>
           <ListParagraph>
-            Experience with payment integration through daraja by Safaricom and iPay.
+            Payment integration sytems through daraja by Safaricom and iPay.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -35,7 +35,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with Python Django, php, mySQL.
+            Python Django, CodeIgniter PHP, SQL.
           </ListParagraph>
         </ListContainer>
       </ListItem>
