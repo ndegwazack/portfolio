@@ -17,7 +17,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            React, HTML, CSS, JS, Wordpress.
+            HTML, CSS, JS, Wordpress,React, Google Sites.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -35,7 +35,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Python Django, CodeIgniter PHP, SQL.
+            API development, Python Django, CodeIgniter PHP, SQL.
           </ListParagraph>
         </ListContainer>
       </ListItem>
