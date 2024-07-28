@@ -17,7 +17,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            HTML, CSS, JS, Wordpress,React, Google Sites.
+            HTML, CSS, JS, React, Wordpress, Shopify, Google Sites, Canva Design.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -26,7 +26,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>APIs</ListTitle>
           <ListParagraph>
-            Payment integration sytems through daraja by Safaricom and iPay.
+            Payment sytems integration through daraja by Safaricom and others.
           </ListParagraph>
         </ListContainer>
       </ListItem>
